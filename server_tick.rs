@@ -1,0 +1,3 @@
+fn scguns_server_tick(game: &mut crate::game::Game<'_>) {
+    crate::game::port_scguns::server_tick(game);
+}

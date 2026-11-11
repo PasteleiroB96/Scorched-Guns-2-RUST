@@ -1,0 +1,47 @@
+[mod]
+id = "scguns"
+version = "0.0.1"
+priority = 100
+
+# O commit do Horizon em que este mod foi testado (Nightly 2026-11-08, fdc87ae).
+[compatibility]
+horizon_revision = "fdc87aecdbd116bf1e08adcd062fcbaea8c2e2ca"
+
+[[module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "port_scguns"
+source = "runtime.rs"
+
+[[injection]]
+id = "server-tick"
+kind = "HEAD"
+hook = "server_tick"
+hook_version = 1
+helper = "server_tick.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+]
+
+[[injection]]
+id = "register-commands"
+kind = "HEAD"
+hook = "register_commands"
+hook_version = 1
+helper = "register_commands.rs"
+bindings = [
+  { name = "commands", ty = "&mut Vec<crate::game::native_server::NativeCommand>", value = "&mut *commands" },
+]
+
+[[injection]]
+id = "perform-command"
+kind = "HEAD"
+hook = "perform_command"
+hook_version = 1
+helper = "perform_command.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+  { name = "player", ty = "&crate::game::native_server::NativeServerPlayer", value = "player" },
+  { name = "command", ty = "&str", value = "command" },
+  { name = "ran", ty = "&mut bool", value = "&mut *ran" },
+]
