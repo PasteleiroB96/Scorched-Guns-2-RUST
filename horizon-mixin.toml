@@ -1,6 +1,6 @@
 [mod]
 id = "scguns"
-version = "0.0.1"
+version = "0.0.2"
 priority = 100
 
 # O commit do Horizon em que este mod foi testado (Nightly 2026-11-08, fdc87ae).
@@ -44,4 +44,14 @@ bindings = [
   { name = "player", ty = "&crate::game::native_server::NativeServerPlayer", value = "player" },
   { name = "command", ty = "&str", value = "command" },
   { name = "ran", ty = "&mut bool", value = "&mut *ran" },
+]
+
+[[injection]]
+id = "listed"
+kind = "HEAD"
+hook = "mods"
+hook_version = 1
+helper = "listed.rs"
+bindings = [
+  { name = "mods", ty = "&mut Vec<crate::game::native_hooks::NativeMod>", value = "&mut *mods" },
 ]

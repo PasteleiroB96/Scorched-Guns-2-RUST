@@ -1,11 +1,12 @@
 # Scorched Guns para Horizon (teste de infraestrutura)
 
-Versao 0.0.1. Ainda nao tem armas: so confirma que um mod nativo compila e roda no seu Horizon.
+Versao 0.0.2. Ainda nao tem armas: so confirma que um mod nativo compila e roda no seu Horizon.
 
 Fixado no Horizon Nightly 2026-11-08, commit `fdc87aecdbd116bf1e08adcd062fcbaea8c2e2ca`.
 
 ## O que faz
-- Escreve `[scguns] mod carregado...` no log (aba Console) no primeiro tick do servidor.
+- Escreve linhas `scguns: ...` no latest.log (primeiro tick do servidor e ao registrar comandos).
+- Aparece em Options > Mods.
 - Adiciona o comando `/scguns hello`, que responde no chat.
 
 ## Como instalar
