@@ -1,6 +1,6 @@
 [mod]
 id = "scguns"
-version = "0.1.1"
+version = "0.1.2"
 priority = 100
 
 # O commit do Horizon em que este mod foi testado (Nightly 2026-11-08, fdc87ae).

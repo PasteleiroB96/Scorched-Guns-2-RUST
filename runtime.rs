@@ -10,7 +10,7 @@ use std::sync::atomic::{AtomicBool, Ordering};
 
 pub const ID: &str = "scguns";
 pub const NAME: &str = "Scorched Guns";
-pub const VERSION: &str = "0.1.1";
+pub const VERSION: &str = "0.1.2";
 
 static LOGGED: AtomicBool = AtomicBool::new(false);
 
