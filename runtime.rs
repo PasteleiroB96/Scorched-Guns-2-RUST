@@ -10,7 +10,7 @@ use std::sync::atomic::{AtomicBool, Ordering};
 
 pub const ID: &str = "scguns";
 pub const NAME: &str = "Scorched Guns";
-pub const VERSION: &str = "0.1.0";
+pub const VERSION: &str = "0.1.1";
 
 static LOGGED: AtomicBool = AtomicBool::new(false);
 
@@ -237,13 +237,5 @@ pub fn screen_draw(game: &Game<'_>, block: &str, batch: &mut horizon_client::hud
             [0.0, 0.0, 176.0, 166.0],
             [origin[0], origin[1], 176.0, 166.0],
         );
-    }
-}
-
-/// `native_menu_slot_rules`: o espaco do blueprint so aceita blueprints.
-pub fn menu_slot_rules(menu: &str, slot: usize, stack: &ItemStack, may_place: &mut bool, _max_stack: &mut u32) {
-    if menu == BENCH && slot == BLUEPRINT {
-        let item = &*stack.item;
-        *may_place = item.starts_with("scguns:") && item.ends_with("_blueprint");
     }
 }

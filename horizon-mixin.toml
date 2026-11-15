@@ -1,6 +1,6 @@
 [mod]
 id = "scguns"
-version = "0.1.0"
+version = "0.1.1"
 priority = 100
 
 # O commit do Horizon em que este mod foi testado (Nightly 2026-11-08, fdc87ae).
@@ -135,7 +135,7 @@ helper = "menu_slot_rules.rs"
 bindings = [
   { name = "menu", ty = "&str", value = "menu" },
   { name = "slot", ty = "usize", value = "slot" },
-  { name = "stack", ty = "&horizon_client::items::ItemStack", value = "stack" },
+  { name = "stack", ty = "&ItemStack", value = "stack" },
   { name = "may_place", ty = "&mut bool", value = "&mut *may_place" },
   { name = "max_stack", ty = "&mut u32", value = "&mut *max_stack" },
 ]
