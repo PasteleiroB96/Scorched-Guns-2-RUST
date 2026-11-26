@@ -5,8 +5,8 @@
   64
  ],
  "textures": {
-  "0": "scguns:item/doublet",
-  "particle": "scguns:item/doublet"
+  "0": "scguns:animated/gun/doublet",
+  "particle": "scguns:animated/gun/doublet"
  },
  "elements": [
   {

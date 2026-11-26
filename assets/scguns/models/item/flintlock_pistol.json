@@ -5,8 +5,8 @@
   64
  ],
  "textures": {
-  "0": "scguns:item/flintlock_pistol",
-  "particle": "scguns:item/flintlock_pistol"
+  "0": "scguns:animated/gun/flintlock_pistol",
+  "particle": "scguns:animated/gun/flintlock_pistol"
  },
  "elements": [
   {
