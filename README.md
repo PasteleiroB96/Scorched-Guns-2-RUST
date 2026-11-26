@@ -1,6 +1,6 @@
 # Scorched Guns para Horizon
 
-Versao 0.2.6: esqueleto nativo + conteudo (itens, texturas, receitas, Gun Bench e modelos 3D das armas) no formato novo.
+Versao 0.2.7: esqueleto nativo + conteudo (itens, texturas, receitas, Gun Bench e modelos 3D das armas) no formato novo.
 A bancada ainda nao abre a tela propria e as armas ainda nao atiram: so o conteudo.
 
 Fixado no Horizon `0a875da91dbb0fdcb7ba8c42c11341aa229af51a` (Nightly 2026-11-20).
