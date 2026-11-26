@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:barrel",
+  "properties": {
+    "hardness": 2.5,
+    "sounds": "minecraft:iron_block",
+    "explosion_resistance": 6.0
+  },
+  "components": {
+    "!minecraft:cooking_fuel": {}
+  }
+}

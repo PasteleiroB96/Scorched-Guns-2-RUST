@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ammo",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "scguns:pebbles",
+    "scguns:pebbles",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "scguns:powder_and_ball",
+    "count": 6
+  }
+}

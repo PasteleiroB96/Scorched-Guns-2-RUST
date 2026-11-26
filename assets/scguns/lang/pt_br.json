@@ -1,0 +1,14 @@
+{
+  "item.scguns.antique_blueprint": "Projeto Antigo",
+  "item.scguns.stone_gun_barrel": "Cano de Pedra",
+  "item.scguns.pebbles": "Seixos",
+  "item.scguns.powder_and_ball": "Polvora e Bala",
+  "item.scguns.grapeshot": "Metralha",
+  "item.scguns.musket": "Mosquete",
+  "item.scguns.flintlock_pistol": "Pistola de Pederneira",
+  "item.scguns.handcannon": "Canhao de Mao",
+  "item.scguns.blunderbuss": "Bacamarte",
+  "item.scguns.doublet": "Duplete",
+  "block.scguns.gun_bench": "Bancada de Armas",
+  "container.scguns.gun_bench": "Bancada de Armas"
+}

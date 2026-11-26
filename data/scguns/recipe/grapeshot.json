@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ammo",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "scguns:pebbles",
+    "scguns:pebbles",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "scguns:grapeshot",
+    "count": 4
+  }
+}

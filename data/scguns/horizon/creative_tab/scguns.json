@@ -1,0 +1,17 @@
+{
+  "title": "Scorched Guns",
+  "icon": "scguns:musket",
+  "items": [
+    "scguns:gun_bench",
+    "scguns:antique_blueprint",
+    "scguns:stone_gun_barrel",
+    "scguns:pebbles",
+    "scguns:powder_and_ball",
+    "scguns:grapeshot",
+    "scguns:musket",
+    "scguns:flintlock_pistol",
+    "scguns:handcannon",
+    "scguns:blunderbuss",
+    "scguns:doublet"
+  ]
+}

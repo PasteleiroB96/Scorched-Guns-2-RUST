@@ -1,9 +1,10 @@
 # Scorched Guns para Horizon
 
-Versao 0.2.0: esqueleto no formato novo de mods nativos (horizon-mod.toml + Cargo.toml + src/lib.rs).
-Ainda nao tem armas nem bancada; so valida que o launcher consegue compilar.
+Versao 0.2.1: esqueleto nativo + conteudo (itens, texturas, receitas e o bloco da Gun Bench) no formato novo.
+A bancada ainda nao abre a tela propria e as armas ainda nao atiram: so o conteudo.
 
 Fixado no Horizon `0a875da91dbb0fdcb7ba8c42c11341aa229af51a` (Nightly 2026-11-20).
 
 ## Creditos e licenca
-Port do Scorched Guns 2, de Ribs498 (GPLv3), baseado no Gun Mod de MrCrayfish. Este port e GPLv3.
+Port do Scorched Guns 2, de Ribs498 e equipe (feito com a permissao deles), baseado no Gun Mod de MrCrayfish.
+Este port e GPLv3. Sons CC0; texturas e modelos pertencem aos autores originais.
