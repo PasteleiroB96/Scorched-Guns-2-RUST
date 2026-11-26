@@ -5,8 +5,8 @@
   64
  ],
  "textures": {
-  "0": "scguns:animated/gun/blunderbuss",
-  "particle": "scguns:animated/gun/blunderbuss"
+  "0": "scguns:item/gun/blunderbuss",
+  "particle": "scguns:item/gun/blunderbuss"
  },
  "elements": [
   {

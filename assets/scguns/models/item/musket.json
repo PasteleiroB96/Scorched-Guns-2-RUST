@@ -5,8 +5,8 @@
   64
  ],
  "textures": {
-  "0": "scguns:animated/gun/musket",
-  "particle": "scguns:animated/gun/musket"
+  "0": "scguns:item/gun/musket",
+  "particle": "scguns:item/gun/musket"
  },
  "elements": [
   {

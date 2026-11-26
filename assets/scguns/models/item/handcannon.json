@@ -5,8 +5,8 @@
   64
  ],
  "textures": {
-  "0": "scguns:animated/gun/handcannon",
-  "particle": "scguns:animated/gun/handcannon"
+  "0": "scguns:item/gun/handcannon",
+  "particle": "scguns:item/gun/handcannon"
  },
  "elements": [
   {

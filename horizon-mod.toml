@@ -1,7 +1,7 @@
 # Scorched Guns 2 (Ribs498, GPLv3) portado para o Horizon. Versao de teste: esqueleto sem armas.
 id = "scguns"
 name = "Scorched Guns"
-version = "0.2.4"
+version = "0.2.5"
 description = "Port do Scorched Guns 2 (em construcao). Gun Bench, blueprint Antique, pecas, municao e as primeiras armas (modelos 3D, ainda sem tiro)."
 authors = ["Ribs498"]
 api = "0.2"
